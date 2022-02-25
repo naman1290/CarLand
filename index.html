@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,700&family=El+Messiri:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        /* background-image: url('img/ji.jpg');
+        background-repeat: no-repeat;*/
+        background-color: #2F2F2F;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'El Messiri', sans-serif;
+
+    }
+
+    header::before {
+        background: url('https://source.unsplash.com/1600x900/?car') no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        opacity: 0.3;
+    }
+
+    .left {
+        /*border: 2px solid black;*/
+        display: inline-block;
+        position: absolute;
+        left: 150px;
+
+    }
+
+    .left img {
+        width: 150px;
+        height: 125px;
+    }
+
+    .left div {
+        color: blanchedalmond;
+        width: 155px;
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .right {
+        /* border: 2px solid black;*/
+        display: block;
+        width: 35%;
+        margin: 10px 900px;
+        padding-top: 2rem;
+    }
+
+    /* .right {
+        border: 2px solid black;
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 10px;
+    }*/
+
+    .navbar {
+       display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+
+        color: #fef1d2;
+        text-decoration: none;
+        padding: 15px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(247, 46, 86);
+        text-decoration: underline;
+    }
+
+    /*.right div {
+        margin-top: 10px;
+        padding: 10px;
+
+    }
+
+    .right input {
+        border-radius: 20px;
+    }*/
+
+    section {
+        justify-content: center;
+        text-align: center;
+        margin-top: 125px;
+        padding-top: 90px;
+        font-size: 5rem;
+        color: white;
+    }
+
+    .di {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/logo.png">
+            <div>Car-LanD</div>
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <!-- <div class="right">
+            <div>
+                <input type="Text" placeholder="Search Your Car">
+            </div>-->
+        </div>
+
+    </header>
+    <section>
+        Welcome To Car-LanD
+        <con class="di">
+            Enjoy Your Luxury Rides
+        </con>
+    </section>
+</body>
+
+</html>
